@@ -1,0 +1,8 @@
+{
+	"name": "Reverse Image Search",
+	"version": "1.0.0",
+	"description": "Right click an image to search for it.",
+	"author": "Cadence#3263",
+	"license": "AGPL-3.0",
+	"optionalDependencies": ["pc-emojiUtility"]
+}
