@@ -98,8 +98,8 @@ module.exports = class ReverseImageSearch extends Plugin {
 						getItems: () => {
 							return providers.map(p => {
 								let url
-								if (p[2] === false) url = target.src
-								else url = encodeURIComponent(target.src)
+								if (p[2] === false) url = target.parentElement.href
+								else url = encodeURIComponent(target.parentElement.href)
 								return {
 									type: "button",
 									name: p[0],
